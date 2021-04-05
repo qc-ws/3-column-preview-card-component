@@ -1,0 +1,19 @@
+.learn-more__btn {
+  background-color: $Very-light-gray;
+  border: 2px solid transparent;
+  border-radius: 28px;
+  cursor: pointer;
+  padding: 0.7rem 1.6rem;
+  font-family: "Lexend Deca", sans-serif;
+
+  &:hover {
+    background-color: transparent;
+    color: $Transparent-white;
+    border: 2px solid $Transparent-white;
+  }
+
+  &:active {
+    position: relative;
+    top: 2px;
+  }
+}
